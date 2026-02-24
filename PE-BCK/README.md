@@ -1,10 +1,13 @@
 
 
+# Configuration file
 
+/etc/fail2ban/filter.d/asterisk.conf
+/etc/fail2ban/jail.conf
 
 # How to see IP blocked ?
 
-```
+```bash
 # fail2ban-client status asterisk --with-time
 Status for the jail: asterisk
 |- Filter
